@@ -80,6 +80,10 @@ const playRound = (playerSelection, computerSelection) => {
       return 'Tie! You both selected scissors';
     }
   }
+  else
+  {
+    return 'Please select rock, paper, or scissors!';
+  }
 }
 
 const getRandomInt = (max) => Math.floor(Math.random() * Math.floor(max));
